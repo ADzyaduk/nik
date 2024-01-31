@@ -7,10 +7,10 @@ useHead({
   title: 'Цены',
 }),
   useSeoMeta({
-    title: 'Профессиональная покраска в городе Казань',
+    title: 'Цены на покраску',
     description: 'Покраска любых поверхностей, Механизированая покраска, ',
     og: {
-      title: 'Покраска в Казани',
+      title: 'Цены на покраску Казани',
       description: 'Покраска любых поверхностей',
       image: 'https://pokraska-kazan.ru/_nuxt/logo2.46bfc876.png',
     },

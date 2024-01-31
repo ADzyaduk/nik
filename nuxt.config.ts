@@ -3,12 +3,12 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   modules: ['@nuxt/ui', 'nuxt-icon', '@nuxtjs/seo'],
   ui: {
-    icons: 'all'
+    icons: ["mdi"]
   },
   site: {
     url: 'https://pokraska-kazan.ru',
     name: 'Професиональная прокраска',
-    description: 'Професиональная прокраска',
+    description: 'Покраска Казань',
     defaultLocale: 'ru', // not needed if you have @nuxtjs/i18n installed
   },
 })

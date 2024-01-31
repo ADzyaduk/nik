@@ -6,7 +6,7 @@
 
         <div class="flex flex-wrap items-center mt-20 text-left">
             <div class="w-full md:w-3/5 lg:w-1/2 px-4 max-w-[500px] mx-auto transition-transform transform hover:scale-105">
-                <img src="/img/img1.jpg" alt="gem"
+                <img src="/img/img1.jpg" alt="Механизированная покраска"
                     class="w-full h-96 object-cover inline-block rounded shadow-lg border border-lime-500 dark:border-indigo-500">
             </div>
             <div
@@ -25,7 +25,7 @@
 
         <div class="flex flex-wrap items-center mt-20 text-left">
             <div class="w-full md:w-3/5 lg:w-1/2 px-4 max-w-[500px] mx-auto transition-transform transform hover:scale-105">
-                <img src="/img/333.jpg" alt="project members"
+                <img src="/img/333.jpg" alt="Покраска стен"
                     class="w-full h-96 object-cover inline-block rounded shadow-lg border border-lime-500 dark:border-indigo-500">
             </div>
             <div
@@ -43,7 +43,7 @@
 
         <div class="flex flex-wrap items-center mt-20 text-left">
             <div class="w-full md:w-3/5 lg:w-1/2 px-4 max-w-[500px] mx-auto transition-transform transform hover:scale-105">
-                <img src="/img/img3.jpeg" alt="editor"
+                <img src="/img/img3.jpeg" alt="Покраска потолков"
                     class="w-full h-96 object-cover inline-block rounded shadow-lg border border-lime-500 dark:border-indigo-500">
             </div>
             <div
@@ -62,7 +62,7 @@
 
         <div class="flex flex-wrap items-center mt-20 text-left">
             <div class="w-full md:w-3/5 lg:w-1/2 px-4 max-w-[500px] mx-auto transition-transform transform hover:scale-105">
-                <img src="/img/444.jpg" alt="bulk editing"
+                <img src="/img/444.jpg" alt="Покраска дерева"
                     class="w-full h-96 object-cover inline-block rounded shadow-lg border border-lime-500 dark:border-indigo-500">
             </div>
             <div

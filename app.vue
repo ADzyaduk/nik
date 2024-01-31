@@ -8,3 +8,7 @@
       description="This is a notification." :timeout="600000" />
   </div>
 </template>
+
+<script setup>
+
+</script>

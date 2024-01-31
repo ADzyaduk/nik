@@ -9,12 +9,12 @@ useHead({
   title: 'Контакты',
 })
 useSeoMeta({
-  title: 'Профессиональная покраска в городе Казань',
+  title: 'Контакты',
   description: 'Покраска любых поверхностей, Механизированая покраска,',
   og: {
     title: 'Мой удивительный сайт',
     description: 'Это мой удивительный сайт, дайте мне рассказать вам о нем.',
-    image: 'https://pokraska-kazan.ru/_nuxt/logo2.46bfc876.png',
+    image: '/public/og-image.png',
   },
   canonical: 'https://pokraska-kazan.ru/contacts',
 })

@@ -11,11 +11,9 @@
         </span>
 
         <div>
-            <UButton to="tel:79372979997" icon="i-heroicons-phone" size="sm" color="lime" square variant="link" />
-            <UButton to="https://wa.me/79372979997" icon="i-ion-logo-whatsapp" size="sm" color="lime" square
-                variant="link" />
-            <UButton to="https://t.me/+79372979997" icon="i-ic-baseline-telegram" size="sm" color="lime" square
-                variant="link" />
+            <UButton to="tel:79372979997" icon="i-mdi-phone" size="sm" color="lime" square variant="link" />
+            <UButton to="https://wa.me/79372979997" icon="i-mdi-whatsapp" size="sm" color="lime" square variant="link" />
+            <UButton to="https://t.me/+79372979997" icon="i-mdi-telegram" size="sm" color="lime" square variant="link" />
         </div>
 
         <div

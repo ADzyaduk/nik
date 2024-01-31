@@ -18,7 +18,7 @@ useHead({
     og: {
       title: 'Покраска в Казани',
       description: 'Покраска Казань',
-      image: 'https://pokraska-kazan.ru/_nuxt/logo2.46bfc876.png',
+      image: '/og-image.png',
     },
     canonical: 'https://pokraska-kazan.ru/',
   })
