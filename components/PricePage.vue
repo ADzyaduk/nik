@@ -1,22 +1,71 @@
 <template>
   <UContainer>
-    <h1 class="text-center mb-6 text-2xl font-bold  text-gray-800 dark:text-gray-300 ">
-      Цены на покраску в 2024 году</h1>
-    <div class="ring-1 ring-lime-500 dark:ring-indigo-500 rounded-3xl p-8 xl:p-10 mb-3 flex justify-between">
-      <p>Покраска стен</p>
-      <p>от 100 рублей за кв м</p>
-      <UButton to="price" color="lime" variant="outline" size="md" icon="i-heroicons-arrow-right-20-solid"
-        :trailing="true">Подробнее
-      </UButton>
+    <h1 class="text-4xl font-bold mb-6 text-gray-800 dark:text-gray-300">
+      Покраска кирпичных стен, процесс работы и цена
+    </h1>
+    <div class="flex">
+      <img src="#" alt="" class="object-cover rounded shadow-lg mb-6">
+      <img src="#" alt="" class="object-cover rounded shadow-lg mb-6">
     </div>
-
-
-
+    <div>
+      <h2 class="text-xl font-semibold text-gray-700 dark:text-gray-300 mb-4">
+        Покраска стен под кирпич включает в себя несколько этапов:
+      </h2>
+      <ol class="list-decimal pl-6 mb-4">
+        <li class="mb-2">Подготовка стены: перед покраской стену необоходимо загрутовать</li>
+        <li class="mb-2">
+          Выбор краски: правильно подобранной краской можно покрасить кирпич в любой цвет
+          для покраски кирпича обычно используется акриловая, матовая краска для фасадов.
+        </li>
+        <li class="mb-2">Покраска: при покраске стены используются разные кисти для швов и кирпича.</li>
+        <li class="mb-2">Завершение: благодаря эксплуатационным свойствам краски, покрашеный кирпич не поменяет свой цвет
+        </li>
+      </ol>
+    </div>
+    <div>
+      <h2 class="text-2xl font-bold mb-4 text-gray-800 dark:text-gray-300">Цены на покраску кирпича</h2>
+      <UTable :rows="people" />
+    </div>
+    <div>
+      <p class="text-base text-gray-700 dark:text-gray-300 mb-6">
+        Выбор метода зависит от ваших предпочтений и доступных инструментов. Пожалуйста, учтите, что это общие
+        рекомендации, и конкретные методы могут варьироваться в зависимости от поверхности и материалов.
+      </p>
+    </div>
+    <div class="mb-16">
+      <p class="text-base text-gray-700 dark:text-gray-300 mb-6">
+        Все цены указаны предварительно ориентировочные. Полная смета и стоимость работ оговаривается на объекте.
+      </p>
+    </div>
   </UContainer>
 </template>
 
-<script setup>
-
+<script setup lang="ts">
+const people = [{
+  Наименование: 'Очистка поверхности от грязи',
+  Единицаизмерения: 'кв.м.',
+  цена: '',
+}, {
+  Наименование: 'Грунтование поверхности',
+  Единицаизмерения: 'кв.м.',
+  цена: '',
+}, {
+  Наименование: 'Покраска кирпичной стены 1 слой',
+  Единицаизмерения: 'кв.м.',
+  цена: '',
+}, {
+  Наименование: 'Покраска кирпичной стены 2 слоя',
+  Единицаизмерения: 'кв.м.',
+  цена: '',
+}, {
+  Наименование: 'Дополнительные работы',
+  Единицаизмерения: 'кв.м.',
+  цена: '',
+}, {
+  Наименование: '',
+  Единицаизмерения: 'кв.м.',
+  цена: '',
+}]
 </script>
 
 <style lang="scss" scoped>

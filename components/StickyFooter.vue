@@ -17,11 +17,16 @@
         </div>
 
         <div
-            class="flex flex-wrap md:hidden items-center justify-between mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0 space-x-6">
+            class="flex flex-wrap md:hidden items-center justify-between mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0 space-x-1">
             <ULink to="/" active-class="text-lime-500 dark:text-indigo-500"
                 inactive-class="font-semibold text-gray-500 dark:text-gray-400 hover:text-lime-500 dark:hover:text-indigo-500">
                 Главная
             </ULink>
+            <UDropdown :items="items" mode="click" :popper="{ placement: 'bottom-start' }">
+                <UButton
+                    class="font-semibold  text-gray-400 dark:text-gray-400 hover:text-lime-500 dark:hover:text-indigo-500"
+                    color="lime" variant="link" label="Покраска" trailing-icon="i-heroicons-chevron-down-20-solid" />
+            </UDropdown>
             <ULink to="price" active-class="text-lime-500 dark:text-indigo-500"
                 inactive-class="font-semibold text-gray-500 dark:text-gray-400 hover:text-lime-500 dark:hover:text-indigo-500">
                 Цены
@@ -39,7 +44,34 @@
 </template>
 
 <script setup>
+const items = [
+    [{
+        label: 'Покраска бетона',
+        icon: 'i-heroicons-arrow-right-20-solid',
+        to: '/pokraskabetona'
+    }],
+    [{
+        label: 'Покраска дерева',
+        icon: 'i-heroicons-arrow-right-20-solid',
+        to: '/pokraskadereva'
+    }],
+    [{
+        label: 'Покраска металла',
+        icon: 'i-heroicons-arrow-right-20-solid',
+        to: '/pokraskametalla'
+    }],
+    [{
+        label: 'Покраска забора',
+        icon: 'i-heroicons-arrow-right-20-solid',
+        to: '/pokraskazabora'
+    }],
+    [{
+        label: 'Покраска кирпича',
+        icon: 'i-heroicons-arrow-right-20-solid',
+        to: '/pokraskakirpicha'
+    }],
 
+]
 </script>
 
 <style lang="scss" scoped>

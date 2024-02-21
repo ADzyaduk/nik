@@ -10,7 +10,7 @@ const coveringServices = ref([
 </script>
 
 <template>
-    <div class="">
+    <div class="mb-8">
         <p class="text-lg font-semibold mb-2 text-center text-gray-800 dark:text-gray-300">Укрывные работы:</p>
         <table class="table-fixed w-full">
             <tbody>
