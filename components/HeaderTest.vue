@@ -2,14 +2,14 @@
 <script setup lang="ts">
 const items = [
     [{
-        label: 'Покраска бетона',
+        label: 'Покраска монолита',
         icon: 'i-heroicons-arrow-right-20-solid',
-        to: '/pokraskabetona'
+        to: '/pokraskamonolita'
     }],
     [{
-        label: 'Покраска дерева',
+        label: 'Покраска фасада',
         icon: 'i-heroicons-arrow-right-20-solid',
-        to: '/pokraskadereva'
+        to: '/pokraskafasada'
     }],
     [{
         label: 'Покраска металла',
@@ -25,6 +25,11 @@ const items = [
         label: 'Покраска кирпича',
         icon: 'i-heroicons-arrow-right-20-solid',
         to: '/pokraskakirpicha'
+    }],
+    [{
+        label: 'Покраска обоев',
+        icon: 'i-heroicons-arrow-right-20-solid',
+        to: '/pokraskaoboev'
     }],
 
 ]
@@ -44,7 +49,7 @@ const items = [
                     </ULink>
                     <UDropdown :items="items" mode="click" :popper="{ placement: 'bottom-start' }">
                         <UButton
-                            class="font-semibold  text-gray-400 dark:text-gray-400 hover:text-lime-500 dark:hover:text-indigo-500"
+                            class="font-semibold text-gray-400 dark:text-gray-400 hover:text-lime-500 dark:hover:text-indigo-500"
                             color="lime" variant="link" label="Покраска"
                             trailing-icon="i-heroicons-chevron-down-20-solid" />
                     </UDropdown>

@@ -1,6 +1,6 @@
 <template>
     <div>
-
+        <Metall />
     </div>
 </template>
 

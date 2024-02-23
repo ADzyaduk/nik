@@ -1,6 +1,7 @@
 <template>
   <div>
     <Hero />
+    <Pokraska />
     <FeaturedSection />
     <Featured />
     <Price />

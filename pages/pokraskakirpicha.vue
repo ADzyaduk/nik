@@ -1,6 +1,6 @@
 <template>
     <div>
-        <PricePage />
+        <Kirpich />
     </div>
 </template>
 
