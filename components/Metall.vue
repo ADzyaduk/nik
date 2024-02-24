@@ -35,7 +35,7 @@
             </p>
         </div>
         <div>
-            <h2 class="text-2xl font-bold mb-4 text-gray-800 dark:text-gray-300">Цены на покраску кирпича</h2>
+            <h2 class="text-2xl font-bold mb-4 text-gray-800 dark:text-gray-300">Цены на покраску металла</h2>
             <UTable :rows="people" />
         </div>
         <div>
@@ -45,7 +45,7 @@
             </p>
         </div>
         <div class="mb-16">
-            <p class="text-base text-gray-700 dark:text-gray-300 mb-24">
+            <p class="text-base text-gray-700 dark:text-gray-300 mb-24 font-semibold">
                 Все цены указаны предварительно ориентировочные. Полная смета и стоимость работ оговаривается на объекте.
             </p>
         </div>

@@ -4,9 +4,9 @@
             Покраска забора: Процесс работы и цена:
         </h1>
         <div class="flex gap-8 justify-center">
-            <img src="/pokraska/zabor1.png" alt="покраска кирпича"
+            <img src="/pokraska/zabor1.png" alt="покраска забора"
                 class="object-cover rounded shadow-lg mb-6 w-1/2 md:w-1/3 lg:w-1/3 md:h-[380px] h-[150px]">
-            <img src="/pokraska/zabor2.jpg" alt="покраска кирпича"
+            <img src="/pokraska/zabor2.jpg" alt="покраска забора"
                 class="object-cover rounded shadow-lg mb-6 w-1/2 md:w-1/3 lg:w-1/3 md:h-[380px] h-[150px]">
         </div>
         <div>
@@ -34,7 +34,7 @@
             </ol>
         </div>
         <div>
-            <h2 class="text-2xl font-bold mb-4 text-gray-800 dark:text-gray-300">Цены на покраску кирпича</h2>
+            <h2 class="text-2xl font-bold mb-4 text-gray-800 dark:text-gray-300">Цены на покраску заборов</h2>
             <UTable :rows="people" />
         </div>
         <div>
@@ -44,7 +44,7 @@
             </p>
         </div>
         <div class="mb-16">
-            <p class="text-base text-gray-700 dark:text-gray-300 mb-24">
+            <p class="text-base text-gray-700 dark:text-gray-300 mb-24 font-semibold">
                 Все цены указаны предварительно ориентировочные. Полная смета и стоимость работ оговаривается на объекте.
             </p>
         </div>

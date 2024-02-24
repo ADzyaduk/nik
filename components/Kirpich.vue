@@ -35,7 +35,7 @@
       </p>
     </div>
     <div class="mb-16">
-      <p class="text-base text-gray-700 dark:text-gray-300 mb-24">
+      <p class="text-base text-gray-700 dark:text-gray-300 mb-24 font-semibold">
         Все цены указаны предварительно ориентировочные. Полная смета и стоимость работ оговаривается на объекте.
       </p>
     </div>
