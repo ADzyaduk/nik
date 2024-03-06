@@ -1,5 +1,6 @@
 <template>
     <UContainer>
+        <h1 class="text-4xl font-bold mb-6 text-gray-800 dark:text-gray-300 text-center">Покраска стен и потолков</h1>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 ">
             <div class="flex flex-col p-4 rounded-lg sm:flex-row items-center justify-center">
                 <img src="/pokraska/kvartira.png" alt="Покраска квартиры"

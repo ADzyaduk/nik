@@ -36,7 +36,7 @@ const items = [
 </script>
 
 <template>
-    <div class="bg-cover bg-center flex items-top justify-center h-[180px]  bg-slate-800">
+    <div class="bg-cover bg-center flex items-top justify-center h-[180px]  bg-slate-800 mb-4">
         <nav class="relative container mx-auto p-6">
             <div class="flex items-center justify-between">
                 <div class="pt-2">
@@ -49,7 +49,7 @@ const items = [
                     </ULink>
                     <UDropdown :items="items" mode="click" :popper="{ placement: 'bottom-start' }">
                         <UButton
-                            class="font-semibold text-gray-400 dark:text-gray-400 hover:text-lime-500 dark:hover:text-indigo-500"
+                            class=" font-semibold text-gray-400 dark:text-gray-400 hover:text-lime-500 dark:hover:text-indigo-500"
                             color="lime" variant="link" label="Покраска"
                             trailing-icon="i-heroicons-chevron-down-20-solid" />
                     </UDropdown>

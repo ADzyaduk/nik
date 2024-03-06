@@ -46,14 +46,14 @@
 <script setup>
 const items = [
     [{
-        label: 'Покраска бетона',
+        label: 'Покраска монолита',
         icon: 'i-heroicons-arrow-right-20-solid',
-        to: '/pokraskabetona'
+        to: '/pokraskamonolita'
     }],
     [{
-        label: 'Покраска дерева',
+        label: 'Покраска фасада',
         icon: 'i-heroicons-arrow-right-20-solid',
-        to: '/pokraskadereva'
+        to: '/pokraskafasada'
     }],
     [{
         label: 'Покраска металла',
@@ -69,6 +69,11 @@ const items = [
         label: 'Покраска кирпича',
         icon: 'i-heroicons-arrow-right-20-solid',
         to: '/pokraskakirpicha'
+    }],
+    [{
+        label: 'Покраска обоев',
+        icon: 'i-heroicons-arrow-right-20-solid',
+        to: '/pokraskaoboev'
     }],
 
 ]

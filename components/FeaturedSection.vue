@@ -1,6 +1,6 @@
 <template>
     <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-5 lg:py-20">
-        <h2 class="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-800 dark:text-gray-300">
+        <h2 class="font-bold text-lg sm:text-xl md:text-2xl lg:text-4xl text-gray-800 dark:text-gray-300 text-center">
             Почему Механизированная Покраска - Ваш Выбор №1?
         </h2>
 
