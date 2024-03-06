@@ -64,6 +64,7 @@ export default {
                 '/gallery/20.jpg',
                 '/gallery/21.jpeg',
                 '/gallery/22.jpeg',
+                '/gallery/23.jpeg',
 
             ],
         };
