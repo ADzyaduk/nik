@@ -5,7 +5,7 @@
             <a href="/" class="hover:text-lime-500 dark:hover:text-indigo-500 text-gray-400 dark:text-gray-400 ">Покраска в
                 городе Казань </a>
             <ULink to="tel:79372979997" active-class="text-lime-500 dark:text-indigo-500 "
-                inactive-class="hidden md:inline font-semibold text-gray-500 dark:text-gray-400 hover:text-lime-500 dark:hover:text-indigo-500">
+                inactive-class="text-green-500 text-hidden md:inline font-semibold text-gray-500 dark:text-green-500 hover:text-lime-500 dark:hover:text-indigo-500">
                 +7 937 297 99 97
             </ULink>
         </span>
