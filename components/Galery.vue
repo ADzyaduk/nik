@@ -34,7 +34,7 @@
         </div>
     </div>
 </template>
-  
+
 <script>
 export default {
     data() {
@@ -62,6 +62,8 @@ export default {
                 '/gallery/18.jpg',
                 '/gallery/19.jpg',
                 '/gallery/20.jpg',
+                '/gallery/21.jpeg',
+                '/gallery/22.jpeg',
 
             ],
         };
@@ -83,8 +85,7 @@ export default {
     },
 };
 </script>
-  
+
 <style scoped>
 /* Добавьте стили по необходимости */
 </style>
-  
